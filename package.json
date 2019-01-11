@@ -10,7 +10,7 @@
     "build-bundle": "vue-cli-service build --target lib --name v-cal-input ./src/DatePicker.vue"
   },
   "dependencies": {
-    "date-fns": "^2.0.0-alpha.25",
+    "date-fns": "^2.0.0-alpha.27",
     "vue": "^2.5.17"
   },
   "devDependencies": {
@@ -31,10 +31,21 @@
     "not ie <= 8"
   ],
   "keywords": [
-    "vue", "calendar", "date-range", "date-picker", "date-input", "calendar-input", "day-range", "multi-panel-calendar", "date-range-picker", "date"
+    "vue",
+    "calendar",
+    "date-range",
+    "date-picker",
+    "date-input",
+    "calendar-input",
+    "day-range",
+    "multi-panel-calendar",
+    "date-range-picker",
+    "date"
   ],
   "vue": {
-    "css": { "extract": false },
+    "css": {
+      "extract": false
+    },
     "baseUrl": "/v-cal-input/"
   }
 }

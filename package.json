@@ -46,6 +46,6 @@
     "css": {
       "extract": false
     },
-    "baseUrl": "/v-cal-input/"
+    "publicPath": "/v-cal-input/"
   }
 }
